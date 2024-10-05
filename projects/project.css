@@ -1,0 +1,36 @@
+.main-container {
+  margin-top: 1000px;
+}
+.container {
+  display: block;
+  max-width: 1200px;
+  margin: 1000px auto 0;
+  font-family: sans-serif;
+}
+.content {
+  max-width: 300px;
+}
+.project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.project a {
+  color: blue;
+  text-decoration: underline;
+}
+h1 {
+  font-size: 40px;
+  font-family: "Kalam", cursive;
+}
+img {
+  width: 300px;
+  height: 300px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin-top: 650px;
+  }
+}

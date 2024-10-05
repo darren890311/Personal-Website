@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+.contact-item {
+  display: flex;
+  margin-bottom: 20px;
+}
+.contact-item a {
+  color: blue;
+  text-decoration: underline;
+}
+h1 {
+  margin-bottom: 50px;
+  font-family: "Kalam", cursive;
+  font-size: 40px;
+}
+img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+@media (max-width: 768px) {
+  .container {
+    margin-top: 100px;
+  }
+  .contact-item {
+    flex-direction: column;
+    align-items: center;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+}

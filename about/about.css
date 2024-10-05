@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  margin-top: 80px;
+  font-family: sans-serif;
+}
+.imgs {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  gap: 20px;
+}
+h1 {
+  font-family: "Kalam", cursive;
+  font-size: 40px;
+}
+img {
+  width: 250px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+@media (max-width: 1200px) {
+  .container {
+    margin-top: 700px;
+  }
+  .imgs {
+    grid-auto-flow: row;
+    align-items: center;
+  }
+  img {
+    max-width: 100%;
+    height: 200px;
+  }
+}
+@media (max-width: 768px) {
+  .main-container {
+    .container {
+      margin-top: 500px;
+    }
+  }
+  @media (max-width: 500px) {
+    .main-container {
+      .container {
+        margin-top: 750px;
+      }
+    }
+  }
+}
